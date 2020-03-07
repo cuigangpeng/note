@@ -5,7 +5,7 @@ css-yejianhua
 缩进 text-indent
 大小写 text-transform
 
-Box-sizing
+Box-sizing： border box;
 
 input去除外边框：outline
 
@@ -22,7 +22,7 @@ Background-size: cover 往右拉，contain往下拉，图片均不会失真。
 Transfor: scale() 放大效果  transform-origin: bottm center; 有底部往中间放大.
 Transition: all 0.25s linear; 过度效果，写在需要过度元素的css代码里
 
-两种高度塌陷问题 其中一种是垂直外边距重叠要用table，还有浮动引起的解决方案
+两种高度塌陷问题 其中一种是垂直外边距重叠要用table，还有浮动引起的解决方案 https://blog.csdn.net/Lrj_estranged/article/details/78498573
 
 序号选择器写法
 
