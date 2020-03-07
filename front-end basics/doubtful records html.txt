@@ -1,0 +1,20 @@
+html
+
+分割线标签<hr> 
+
+段落与段落之间有间距：多对p标签
+
+Input具有date属性用于显示日期，color属性调出调色板，file选择文件，checkbox复选框，radio单选框
+
+Form相关：select+option用于带下拉菜单的选项框
+ H5标签 canvas
+
+Table表格使用，thead tr th      tbody tr td
+
+书写规范，最外层元素用id,内层元素都用class
+
+Span应用场景很多
+
+当input设置border-radius时出现阴影效果，可自行设置boder(bd)即可消除阴影效果。
+
+&nbsp 空格

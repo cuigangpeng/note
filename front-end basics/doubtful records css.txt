@@ -1,0 +1,76 @@
+css
+
+光标样式:cursor 
+
+缩进 text-indent
+大小写 text-transform
+
+Box-sizing
+
+input去除外边框：outline
+
+a标签空格留白问题：设置a的父元素为font-size: 0; a元素的的font-size:**px;
+
+Padding：设置盒子边框到盒子内整体的距离
+
+Z-Index
+
+Opacity: 背景透明度
+
+Background-size: cover 往右拉，contain往下拉，图片均不会失真。 
+
+Transfor: scale() 放大效果  transform-origin: bottm center; 有底部往中间放大.
+Transition: all 0.25s linear; 过度效果，写在需要过度元素的css代码里
+
+两种高度塌陷问题 其中一种是垂直外边距重叠要用table，还有浮动引起的解决方案
+
+序号选择器写法
+
+[class^=”类名开头”] 去到以类名开头的所有元素
+
+上一个盒子浮动后，下一个盒子的margin不能从上一个盒子底部开始算，因为上一个盒子已经脱离了标准流。
+
+开始不熟练的话多用div盒子也没事，例如版心什么的，这样更有利于快速实现页面布局
+
+Fiedset legend:分组名称
+字体图标 @font-face
+
+Flex布局，几个主轴对齐方式，换行
+
+Margin-left为负可以覆盖前面的盒子，举例：圣杯布局和双飞翼布局里。
+
+Transform，scale，rotator，skew.    	
+Transform-oringin 改变旋转中心点 
+背对背旋转
+@Keyframes 自定义动画 animation  animation-play-state
+
+flex布局：width100% 	
+
+可在css文件中写上@charset,保证css文件无论在哪里运行都不会出现乱码的情况。
+
+clearfix::before,
+clearfix::after{
+Content: ’’;
+Display: block;               疑惑：display:  table；
+Clear: both;
+}
+
+做项目的时候，在写代码前可以先将一些通用的样式抽离出来，并且把大的模块和对应的注释先分割出来。
+
+父盒子A相对定位，子盒子B绝对定位（相对于A），孙子盒子绝对定位（相对于B）。就近原则。
+
+常用写法 div>ul>li>a.
+
+当设置样式不管用时，检查一下是否需要调换一下样式代码的上下顺序。
+
+Liaoyou商城中在选择器里写“+”的用法。
+
+选择器>选择器 
+类选择器>标签 类选择器
+类选择器 标签
+
+金玲图片取位置：第一种0 -XXpx     	第二种：0 0 表示左上角第一张
+
+伸缩布局必须设宽度和高度，不然没反应	 
+
+绝当定位:left:0; top:50%; 并且transform:Y(X) -50%，定在了父盒子的左（下）边中部。
