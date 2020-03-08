@@ -18,3 +18,7 @@ Span应用场景很多
 当input设置border-radius时出现阴影效果，可自行设置boder(bd)即可消除阴影效果。
 
 &nbsp 空格
+
+Html-Leo
+
+a标签得target属性，-blank
