@@ -1,0 +1,50 @@
+Js yejianhua
+
+深拷贝 递归
+
+闭包
+
+复杂工厂设计模式
+
+Js Leo
+
+有作用域的地方才会存在变量提升
+
+延时定时器 轮循定时器
+
+><只会返回布尔值
+
+String+任何东西都是string  除了+ 其余的string会默认把自己变成数字 算不开返回Nan
+String也有下标 console.log(“abc”[1]);
+
+True == 1 false == 0
+
+函数有默认的返回值就是undefined   有个东西，但是没有定义就是undefined
+
+Style.cssText
+
+ClassName可以返回元素标签上的类名  并且可以对元素的类进行赋值
+
+Window.onresize  浏览器大小发生改变时触发的事件
+
+子函数使用父函数变量的行为就叫做闭包  在JS中，函数内部的局部变量只允许其子函数使用。
+
+生命周期，回收机制a = null，windo可以使变量的生命周期得到永恒
+
+阻止事件冒泡
+
+任何函数里面都有arguments  但它不是数组
+
+函数遇到return就不会 往下执行了，任何函数都有默认的return值，默认值使undefined
+
+Aler也是函数
+
+函数封装
+
+事件委托
+
+任何对象都是不相等的，字面量才可能相等 数组也是对象，所以数组也是不相等的
+
+ID的元素可以直接那ID作为变量使用
+
+CssText
