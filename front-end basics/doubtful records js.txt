@@ -48,3 +48,7 @@ Aler也是函数
 ID的元素可以直接那ID作为变量使用
 
 CssText
+
+事件监听解决一个元素绑定多个事件问题 addEventListener(‘click’,function () {
+alert(0);
+})  //需要把事件的on去掉
