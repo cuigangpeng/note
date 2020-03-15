@@ -52,3 +52,5 @@ CssText
 事件监听解决一个元素绑定多个事件问题 addEventListener(‘click’,function () {
 alert(0);
 })  //需要把事件的on去掉
+
+Onchange 当作用域发生变化时触发事件，应用场景：上传文件时当该事件触发后再做后面的获取value,结合字符串截取方法判断文件的格式是否正确
